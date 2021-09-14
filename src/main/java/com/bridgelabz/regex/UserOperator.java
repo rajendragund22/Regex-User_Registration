@@ -52,7 +52,7 @@ public class UserOperator {
         }
     }
     public void passRule1(String passRule1) {
-        String regex = "^[0-9a-zA-Z]{8}$";
+        String regex = "^[0-9a-zA-Z]{8,}$";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(passRule1);
         boolean valid = matcher.matches();
