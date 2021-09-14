@@ -8,5 +8,6 @@ public class RegexURP {
         user.lastName("Gund");
         user.emailaddress("rajendra@gmail.com");
         user.phoneNo("91 9604315270");
+        user.passRule1("123asASD");
     }
 }
